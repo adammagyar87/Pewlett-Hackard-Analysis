@@ -6,6 +6,7 @@ Facing a wave of pending retirements, management wanted a list of the positions 
 ## Results:
 - We first decided to compile a list of current employees born from 1952 to 1955 which are the most likely to retire in the short term. Our initial list of employees had repeat data that included previous job titles held by these employees. We then filtered the data to only include each employees most recent role. These results are stored in the "unique_titles.csv" file. There are over 90,000 results. 
  - Since the previous file is so large, we wanted to group by each job title to understand what positions would be filled. A table was generated and name "retiring_titles" and the results can be seen below:
+ 
  ![image](https://user-images.githubusercontent.com/87042597/138809485-462e73f8-7f9a-47de-9f4d-9c3e928cb595.png)
 
 - The next step was to generate a list of employees for a mentorship program. This was done by finding current employees born in 1965. The table is titled "mentorship_eligibility" and the queury is shown below:
